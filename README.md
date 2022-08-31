@@ -1,6 +1,6 @@
 # whoami
 👋 Hey, I'm **Ultra24**, but my real name is **Umer**. <br>
-📚 15 Year Old Rising High School Junior. <br>
+📚 16 Year Old Rising High School Junior. <br>
 👨‍💻 Web Developer <br>
 🐍 Python Enthusiast <br>
 📱 Learning Swift <br>
