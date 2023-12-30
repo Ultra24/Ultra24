@@ -1,1 +1,81 @@
-
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0"/>
+        <meta name = "robots" content = "index">
+        <link rel = "stylesheet" href = "style.css"> 
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <title>Umer Rizwan</title>
+    </head>
+    <body id = "main" onload = "loadPage();">
+        <!-- Spinner -->
+        <div id = "loader">
+            <span id = "one"></span>
+            <span id = "two"></span>
+            <span id = "three"></span>
+            <span id = "four"></span>
+            <span id = "five"></span>
+            <span id = "six"></span>
+        </div>
+        
+        <section id = "content">
+        <div class = "window-bar">
+            <div class = "purple"></div>
+            <div class = "middle"></div>
+            <div class = "green"></div>
+            <div class="home" id="navbar" onclick="toggleDropdown()">umer ~ home
+                <div class="dropdown-content" id="dropdown">
+                    <a href="index.html">home</a>
+                    <a href="projects.html">projects</a>
+                </div>
+            </div>
+        </div> 
+        <br>
+        <span id = "hello-world"></span>
+        <script src="script.js"></script>
+        <br><br>
+        <h3><strong>You Say You Want A Revolution!</strong></h3>
+        <br>
+        <article>
+            <p>👋I'm <b class="green-bold">Umer Rizwan</b>, a <b class ="purp-bold">17</b> year old developer based in Toronto, Canada in <b class ="green-bold">Grade 12</b>. I have a deep interest in <b class ="purp-bold">UI</b>/<b class="green-bold">UX</b>, <i>can you tell?</i> Apart from that, I also have a burning passion for <b class = "purp-bold">A.I.</b>, <b class = "green-bold">Web Development</b>, and <b class = "purp-bold">iOS Development</b>. I've been developing various websites with <b class = "green-bold">HTML</b>, <b class="purp-bold">CSS</b>, and <b class="green-bold">JavaScript</b> for the past <b class="purp-bold">3</b> years. In addition, I've also been working with <b class = "green-bold">Python</b> for the last <b class="purp-bold">2</b> years, and have started to develop iOS apps in <b class ="green-bold">Swift</b>.</p>
+        </article>
+        <br><br><br>
+        <section>
+           <button><a class = "projects" href = "projects.html">Check Out My Projects!</a></button>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <button id="contactButton" onclick = "openModal()"><a class="contact" href="#">Let's Get In Touch!</a></button>
+            <div id="contactModal" class="modal">
+                <div class="macos-window">
+                    <div class="macos-title-bar window-bar">
+                        <div class="macos-button purple" onclick="closeModal()"></div>
+                        <div class="macos-button middle"></div>
+                        <div class="macos-button green"></div>
+                        <div class="macos-title"><h1>Contact Me</h1></div>
+                    </div>
+                    <br>
+                    <h4>Email:</h4>
+                    <p><a href = "mailto:umerrizwan2006@outlook.com" class = "link">umerrizwan2006@outlook.com</a></p>
+                    <br>
+                    <h4>Linkedin:</h4>
+                    <p><a href = "https:linkedin.com/in/uriz" class = "link">Umer Rizwan</a></p>
+                    <br>
+                    <h4>GitHub:</h4>
+                    <p><a href = "https:github.com/ultra24" class = "link">Ultra24</a></p>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Copyright &copy; 2023 Umer Rizwan 
+        </footer>
+        </section>
+    </body>
+</html>
