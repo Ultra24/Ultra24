@@ -1,6 +1,6 @@
 # whoami
 👋 Hey, I'm **Ultra24**, but my real name is **Umer**. <br>
-📚 17 Year Old Incoming CS Freshman. <br>
+📚 18 Year Old CS Freshman. <br>
 👨‍💻 Web Developer <br>
 🐍 Python Enthusiast <br>
 📱 Make Apps in Swift and SwiftUI <br>
